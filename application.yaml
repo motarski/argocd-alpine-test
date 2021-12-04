@@ -8,11 +8,12 @@ spec:
 
   source: 
     repoURL: https://github.com/motarski/argocd-alpine-test.git
+    path: staging
     targetRevision: HEAD
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: alpine
 
   syncPolicy:
     syncOptions: 

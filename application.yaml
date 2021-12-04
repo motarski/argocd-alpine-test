@@ -8,6 +8,7 @@ spec:
 
   source: 
     repoURL: https://github.com/motarski/argocd-alpine-test.git
+    path: /
     targetRevision: HEAD
 
   destination:

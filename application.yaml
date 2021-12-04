@@ -7,7 +7,7 @@ spec:
   project: default
 
   source: 
-    repoURL: https://github.com/motarski/pipeline.git
+    repoURL: https://github.com/motarski/argocd-alpine-test.git
     targetRevision: HEAD
 
   destination:
